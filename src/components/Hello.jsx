@@ -106,7 +106,7 @@ const Hello = () => {
               >
                 <h3>markets</h3>
               </div>
-              <h3 className="font-semibold">Social Media Marketing Agent</h3>
+              <h3 className="font-semibold">Social Media Marketing</h3>
               <h4 className="text-sm  text-gray-400">3 Years</h4>
             </div>
             <p className="max-w-4xl line-clamp-2 hover:line-clamp-none duration-200 ease-in-out  text-gray-500">
