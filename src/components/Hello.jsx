@@ -3,7 +3,7 @@ import mazeingshoreel from "../assets/mazeingshoreel.mp4";
 
 const Hello = () => {
   return (
-    <div className="max-w-full min-h-screen flex items-center justify-center md:mb-40 mt-20">
+    <div className="max-w-full min-h-screen flex items-center justify-center md:mb-40 mb-10 mt-20">
       <div
         className="relative text-[#120c35] text-start  min-h-screen flex
        flex-col container items-center max-w-4xl mx-4 md:mx-20 justify-center"
@@ -108,7 +108,7 @@ const Hello = () => {
               >
                 <h3>markets</h3>
               </div>
-              <h3 className="font-semibold">Social Media Marketing Agent</h3>
+              <h3 className="font-semibold">Social Media Marketing</h3>
               <h4 className="text-sm  text-gray-400">3 Years</h4>
             </div>
             <p className="max-w-4xl line-clamp-2 hover:line-clamp-none duration-200 ease-in-out  text-gray-500">
