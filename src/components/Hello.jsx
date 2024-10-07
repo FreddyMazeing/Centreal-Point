@@ -8,30 +8,32 @@ const Hello = () => {
         className="relative text-[#120c35] text-start  min-h-screen flex
        flex-col container items-center max-w-4xl mx-4 md:mx-20 justify-center"
       >
-        <div className="absolute rounded-xl inset-0 w-full h-[150px]">
-          <video
-            src={mazeingshoreel}
-            autoPlay
-            loop
-            muted
-            className="w-full h-full object-cover rounded-xl"
-          ></video>
+        <div className="relative w-full    flex flex-col items-center justify-center text-center">
+          <div className="absolute rounded-xl inset-0 w-full h-[150px]">
+            <video
+              src={mazeingshoreel}
+              autoPlay
+              loop
+              muted
+              className="w-full h-full object-cover rounded-xl"
+            ></video>
+          </div>
+          <div className="absolute inset-0 bg-gradient-to-b from-white/100 "></div>
+          <div className="z-20 rounded-b-xl  bg-gradient-to-b from-white/100 to-white/10 p-4 backdrop-blur-sm  flex flex-col items-center justify-center text-center">
+            <h1 className="text-sm text-center text-[#003b95] font-semibold ">
+              Hello there, I'm
+            </h1>
+            <h1 className="text-4xl text-center font-bold text-[#003b95] ">
+              Freddy{" "}
+            </h1>
+            <h1 className="text-xl  text-center font-light text-[#003b95] ">
+              Ready to be inspired? You're right on time!😎
+            </h1>
+          </div>
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-white/90 "></div>
-        <div className="z-20 flex flex-col items-center justify-center text-center">
-          <h1 className="text-sm text-center text-[#003b95] font-semibold ">
-            Hello there, I'm
-          </h1>
-          <h1 className="text-4xl text-center font-bold text-[#003b95] ">
-            Freddy{" "}
-          </h1>
-          <h1 className="text-xl  text-center font-light text-[#003b95] ">
-            Ready to be inspired? You're right on time!😎
-          </h1>
-          <h2 className="mt-40 mb-10 text-2xl font-semibold  text-[#003b95] ">
-            Skills
-          </h2>
-        </div>
+        <h2 className="mt-40 mb-10 text-2xl font-semibold  text-[#003b95] ">
+          Skills
+        </h2>
 
         <div className="flex flex-col space-y-10 z-20">
           {/* Skill1 */}
