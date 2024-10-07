@@ -25,8 +25,17 @@ const Websites = () => {
             <a
               href="https://frezo.vercel.app/"
               target="_blank"
-              className="flex items-center justify-center"
+              className="relative flex items-center justify-center"
             >
+              <div
+                className="absolute inset-0 flex items-center hover:opacity-100 opacity-0 duration-200 ease-in-out 
+              rounded-2xl bg-gradient-to-r backdrop-blur-sm from-[#3787ff]/10 to-[#02265b]/70 justify-center"
+              >
+                <h1 className="text-white hover:text-[#3787ff]  duration-200 ease-in-out hover:bg-[#02265b]/50 px-16 rounded-lg py-2">
+                  Visit
+                </h1>
+              </div>
+
               <img
                 href=""
                 src={Z1}
@@ -38,8 +47,16 @@ const Websites = () => {
             <a
               href="https://www.tendernet.co.za/"
               target="_blank"
-              className="flex items-center justify-center"
+              className="relative flex items-center justify-center"
             >
+              <div
+                className="absolute inset-0 flex items-center hover:opacity-100 opacity-0 duration-200 ease-in-out 
+              rounded-2xl bg-gradient-to-r backdrop-blur-sm from-[#3787ff]/10 to-[#02265b]/70 justify-center"
+              >
+                <h1 className="text-white hover:text-[#3787ff]  duration-200 ease-in-out hover:bg-[#02265b]/50 px-16 rounded-lg py-2">
+                  Visit
+                </h1>
+              </div>
               <img
                 src={Z2}
                 alt="Website Project_1"
@@ -50,8 +67,16 @@ const Websites = () => {
             <a
               href="https://shoe-haven-nine.vercel.app/"
               target="_blank"
-              className="flex items-center justify-center"
+              className="relative flex items-center justify-center"
             >
+              <div
+                className="absolute inset-0 flex items-center hover:opacity-100 opacity-0 duration-200 ease-in-out 
+              rounded-2xl bg-gradient-to-r backdrop-blur-sm from-[#3787ff]/10 to-[#02265b]/70 justify-center"
+              >
+                <h1 className="text-white hover:text-[#3787ff]  duration-200 ease-in-out hover:bg-[#02265b]/50 px-16 rounded-lg py-2">
+                  Visit
+                </h1>
+              </div>
               <img
                 src={Z3}
                 alt="Website Project_1"
@@ -62,8 +87,16 @@ const Websites = () => {
             <a
               href="https://freddymazenge.vercel.app/#"
               target="_blank"
-              className="flex items-center cursor-pointer justify-center"
+              className="relative flex items-center cursor-pointer justify-center"
             >
+              <div
+                className="absolute inset-0 flex items-center hover:opacity-100 opacity-0 duration-200 ease-in-out 
+              rounded-2xl bg-gradient-to-r backdrop-blur-sm from-[#3787ff]/10 to-[#02265b]/70 justify-center"
+              >
+                <h1 className="text-white hover:text-[#3787ff]  duration-200 ease-in-out hover:bg-[#02265b]/50 px-16 rounded-lg py-2">
+                  Visit
+                </h1>
+              </div>
               <img
                 src={Z4}
                 alt="Website Project_1"
